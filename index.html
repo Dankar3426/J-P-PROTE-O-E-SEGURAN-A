@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Proteção e Vigilância - Segurança Patrimonial de Alta Performance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .bg-custom {
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/api/placeholder/1200/400');
+            background-size: cover;
+            background-position: center;
+        }
+        .service-card {
+            background-color: rgba(50, 50, 50, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <header class="bg-black text-white p-2">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="/api/placeholder/50/50" alt="Logo JP" class="mr-2">
+                <span class="text-xl font-bold text-green-400">Segurança em primeiro lugar</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-green-400 mr-4">(XX) XXXX-XXXX</span>
+                <span class="text-white">CIDADE/ESTADO</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="bg-black text-white border-t border-b border-gray-800">
+        <div class="container mx-auto">
+            <ul class="flex justify-center space-x-6 py-2 text-sm">
+                <li><a href="#" class="hover:text-green-400">HOME</a></li>
+                <li><a href="#" class="hover:text-green-400">Patrulha</a></li>
+                <li><a href="#" class="hover:text-green-400">SERVIÇOS</a></li>
+                <li><a href="#" class="hover:text-green-400">CLIENTES</a></li>
+                <li><a href="#" class="hover:text-green-400">CONTATO/TRABALHE CONOSCO</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="flex-grow">
+        <section class="bg-custom py-10">
+            <div class="container mx-auto text-center">
+                <h1 class="text-3xl font-bold mb-1"> J&P PROTEÇÃO E SEGURANÇA</h1>
+                <h2 class="text-2xl mb-6 text-green-400">A SEGURANÇA PARA O SEU FUTURO</h2>
+                <div class="space-x-4">
+                    <a href="#" class="bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600 text-sm">CONHEÇA A JP</a>
+                    <a href="#" class="bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600 text-sm">CONTATE-NOS</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-10 bg-black">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="service-card">
+                        <img src="/api/placeholder/64/64" alt="Ícone de portaria" class="mx-auto mb-4">
+                        <h3 class="text-lg font-semibold mb-2">FORNECEMOS SERVIÇOS DE PORTARIA</h3>
+                        <p class="text-sm">COM CONTROLADOR DE ACESSO/VIGIA.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="/api/placeholder/64/64" alt="Ícone de gerenciamento" class="mx-auto mb-4">
+                        <h3 class="text-lg font-semibold mb-2">EFETUAMOS GERENCIAMENTO 24HS</h3>
+                        <p class="text-sm">COM EQUIPE ESPECIALIZADA.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="/api/placeholder/64/64" alt="Ícone de ronda" class="mx-auto mb-4">
+                        <h3 class="text-lg font-semibold mb-2">PROVIDENCIAMOS RONDA MOTORIZADA</h3>
+                        <p class="text-sm">COM VEÍCULO CARACTERIZADO.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-white py-2 text-center text-sm">
+        <p>&copy; 2024 JP Proteção e Vigilância. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
